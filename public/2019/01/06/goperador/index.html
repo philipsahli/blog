@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goperador - Blog by sahli.net - Philip Sahli</title>
+  <meta name="author" content="Philip Sahli">
+  <meta name="description" content="A blog about everything.">
+
+  <meta name="generator" content="Hugo 0.55.5" />
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/assets/css/external.min.css" media="screen">
+
+  
+  
+  <link rel="stylesheet" href="/assets/css/styles.css" media="screen">
+
+  <link href="//fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+
+  
+  
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/src/images/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/src/images/favicon.ico">
+
+  
+  <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Blog by sahli.net - Philip Sahli" />
+  <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Blog by sahli.net - Philip Sahli" />
+
+  <meta property="og:title" content="Goperador" />
+<meta property="og:description" content="Goperador
+https://blog.openshift.com/introducing-the-operator-framework/
+Neben Go operator gibt es auch Ansible und Helm operators.
+Workflow
+The following workflow is for a new Go operator: 1. Create a new operator project using the SDK Command Line Interface(CLI) 2. Define new resource APIs by adding Custom Resource Definitions(CRD) 3. Define Controllers to watch and reconcile resources 4. Write the reconciling logic for your Controller using the SDK and controller-runtime APIs 5. Use the SDK CLI to build and generate the operator deployment manifests" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.sahli.net/2019/01/06/goperador/" />
+<meta property="article:published_time" content="2019-01-06T12:17:01&#43;02:00"/>
+<meta property="article:modified_time" content="2019-01-06T12:17:01&#43;02:00"/>
+
+  
+  
+<meta itemprop="name" content="Goperador">
+<meta itemprop="description" content="Goperador
+https://blog.openshift.com/introducing-the-operator-framework/
+Neben Go operator gibt es auch Ansible und Helm operators.
+Workflow
+The following workflow is for a new Go operator: 1. Create a new operator project using the SDK Command Line Interface(CLI) 2. Define new resource APIs by adding Custom Resource Definitions(CRD) 3. Define Controllers to watch and reconcile resources 4. Write the reconciling logic for your Controller using the SDK and controller-runtime APIs 5. Use the SDK CLI to build and generate the operator deployment manifests">
+
+
+<meta itemprop="datePublished" content="2019-01-06T12:17:01&#43;02:00" />
+<meta itemprop="dateModified" content="2019-01-06T12:17:01&#43;02:00" />
+<meta itemprop="wordCount" content="223">
+
+
+
+<meta itemprop="keywords" content="typography,elements," />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Goperador"/>
+<meta name="twitter:description" content="Goperador
+https://blog.openshift.com/introducing-the-operator-framework/
+Neben Go operator gibt es auch Ansible und Helm operators.
+Workflow
+The following workflow is for a new Go operator: 1. Create a new operator project using the SDK Command Line Interface(CLI) 2. Define new resource APIs by adding Custom Resource Definitions(CRD) 3. Define Controllers to watch and reconcile resources 4. Write the reconciling logic for your Controller using the SDK and controller-runtime APIs 5. Use the SDK CLI to build and generate the operator deployment manifests"/>
+
+</head>
+
+  <body>
+    
+      <nav>
+  <a href="/" title="Homepage">
+    blog.sahli.net
+  </a>
+</nav>
+
+    
+    <main class="container">
+      
+  <article>
+    <header>
+      <small>
+        <time datetime="2019-01-06 12:17:01&#43;0200">2019-01-06</time>
+        &bull;
+          
+            
+            <a href="/categories/writing">WRITING</a>
+          
+            , 
+            <a href="/categories/golang">GOLANG</a>
+          </small>
+      <h1>Goperador</h1>
+    </header>
+    <section>
+
+<p>Goperador</p>
+
+<p><a href="https://blog.openshift.com/introducing-the-operator-framework/">https://blog.openshift.com/introducing-the-operator-framework/</a></p>
+
+<p>Neben Go operator gibt es auch Ansible und Helm operators.</p>
+
+<p>Workflow</p>
+
+<p>The following workflow is for a new Go operator:
+1. Create a new operator project using the SDK Command Line Interface(CLI)
+2. Define new resource APIs by adding Custom Resource Definitions(CRD)
+3. Define Controllers to watch and reconcile resources
+4. Write the reconciling logic for your Controller using the SDK and controller-runtime APIs
+5. Use the SDK CLI to build and generate the operator deployment manifests</p>
+
+<p>operator-sdk new operator
+cd operator
+operator-sdk add api &ndash;api-version=app.example.com/v1alpha1 &ndash;kind=GontadorService
+operator-sdk add controller &ndash;api-version=app.example.com/v1alpha1 &ndash;kind=GontadorService</p>
+
+<p>Edit
+     deploy/crds/app_v1alpha1_gontadorservice_cr.yaml -&gt; to define the resources for the service
+     deploy/operator.yaml -&gt; to use our operator image</p>
+
+<p>Eval <code>minishift docker-env</code></p>
+
+<p>operator-sdk build $(minishift openshift registry)/gontador/goperador</p>
+
+<p>docker push $(minishift openshift registry)/gontador/goperador</p>
+
+<p>oc login -u admin</p>
+
+<p>docker login -u admin -p $(oc whoami -t) $(minishift openshift registry)
+docker push $(minishift openshift registry)/gontador/goperador:latest</p>
+
+<p>oc login -u system:admin</p>
+
+<p>cc new-project gontador-operator</p>
+
+<p>kubectl create -f deploy/service_account.yaml
+kubectl create -f deploy/role.yaml
+kubectl create -f deploy/role_binding.yaml
+kubectl create -f deploy/crds/app_v1alpha1_gontadorservice_crd.yaml</p>
+
+<p>oc get crd | grep gontador<br />
+   gontadorservices.app.example.com                                         2019-01-09T11:06:05Z</p>
+
+<p>kubectl create -f deploy/operator.yaml</p>
+
+<p>oc get deployments<br />
+NAME       DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
+operator   1         1         1            0           29s</p>
+
+<p>kubectl create -f deploy/crds/app_v1alpha1_gontadorservice_cr.yaml</p>
+
+<p>oc login -u system:admin</p>
+
+<p>oc get gontadorservice</p>
+
+<p>Common errors:</p>
+
+<h2 id="docker-push-needs-to-push-in-the-repository-with-the-same-name-like-the-namespace">- Docker push needs to push in the repository with the same name like the namespace</h2>
+</section>
+    <footer>
+      <hr>
+      <div class="meta">
+        <p class="tags">
+          
+            
+              <a href="/tags/typography">
+                <span>#</span>typography</a>
+            
+              <a href="/tags/elements">
+                <span>#</span>elements</a>
+            
+          
+        </p>
+      </div>
+      <hr>
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "test" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </footer>
+  </article>
+
+    </main>
+    
+      <footer>
+  <p>
+    &copy; 2020 Philip Sahli. <a href="http://creativecommons.org/licenses/by-sa/4.0/">Some Rights Reserved</a>.
+  </p>
+  <p>
+    Powered by <a href="https://gohugo.io" title="A Fast and Flexible Website Generator">Hugo</a> &amp; <a href="https://github.com/eshlox/simplicity" title="Hugo theme">Simplicity</a>.
+  </p>
+</footer>
+
+    
+    
+    
+    
+    
+    
+    
+    <script src="/assets/js/scripts.min.js"></script>
+    
+  </body>
+</html>
