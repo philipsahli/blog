@@ -45,3 +45,10 @@ title = "Blog by sahli.net - Philip Sahli"
   posts = "/:year/:month/:day/:slug/"
 [pygmentsOptions]
   linenos = false
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+  [languages.de]
+    languageName = "Deutcsh"
+    weight = 2
