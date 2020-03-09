@@ -3,81 +3,18 @@
     
       <url>
         <loc>https://blog.sahli.net/categories/</loc>
-        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
-      </url>
-    
-  
-    
-      <url>
-        <loc>https://blog.sahli.net/2019/01/06/gonsumidor/</loc>
-        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
-      </url>
-    
-  
-    
-      <url>
-        <loc>https://blog.sahli.net/2019/01/06/gontador/</loc>
-        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
-      </url>
-    
-  
-    
-      <url>
-        <loc>https://blog.sahli.net/2019/01/06/goperador/</loc>
-        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
       </url>
     
   
     
       <url>
         <loc>https://blog.sahli.net/</loc>
-        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
       </url>
     
   
     
       <url>
         <loc>https://blog.sahli.net/posts/</loc>
-        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
-      </url>
-    
-  
-    
-      <url>
-        <loc>https://blog.sahli.net/tags/</loc>
-        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
-      </url>
-    
-  
-    
-      <url>
-        <loc>https://blog.sahli.net/tags/elements/</loc>
-        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
-        <priority>0</priority>
-      </url>
-    
-  
-    
-      <url>
-        <loc>https://blog.sahli.net/categories/golang/</loc>
-        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
-        <priority>0</priority>
-      </url>
-    
-  
-    
-      <url>
-        <loc>https://blog.sahli.net/tags/typography/</loc>
-        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
-        <priority>0</priority>
-      </url>
-    
-  
-    
-      <url>
-        <loc>https://blog.sahli.net/categories/writing/</loc>
-        <lastmod>2019-01-06T12:17:01+02:00</lastmod>
-        <priority>0</priority>
       </url>
     
   
@@ -92,6 +29,12 @@
     
       <url>
         <loc>https://blog.sahli.net/projects/</loc>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://blog.sahli.net/tags/</loc>
       </url>
     
   

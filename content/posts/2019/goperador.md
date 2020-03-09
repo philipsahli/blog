@@ -5,6 +5,7 @@ categories: [writing,golang]
 tags: [typography, elements]
 language: en
 slug: goperador
+draft: true
 ---
 
 Goperador

@@ -4,10 +4,10 @@ language: en
 slug: /
 ---
 
-# Blog by sahli.net - Philip Sahli
+# Blog by Philip Sahli on sahli.net
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
 
-[Posts](/posts/) &bull; [Categories](/categories/) &bull; [Tags](/tags/)
+[Categories](/categories/) &bull; [Tags](/tags/)
 
-[Photos](/photos/) &bull; [Projects](/projects/)
+<!--[Photos](/photos/) &bull; --> [Posts](/posts/) &bull; [Projects](/projects/)
