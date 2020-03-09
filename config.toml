@@ -1,4 +1,4 @@
-baseURL = "https://blog.sahli.net"
+baseURL = "https://philipsahli.github.io/blog/"
 defaultContentLanguage = "en"
 disqusShortname = "test"
 enableEmoji = true
