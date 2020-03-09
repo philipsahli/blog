@@ -1,0 +1,30 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Blog by sahli.net - Philip Sahli</title>
+    <link>https://blog.sahli.net/categories/</link>
+    <description>Recent content in Categories on Blog by sahli.net - Philip Sahli</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Jan 2019 12:17:01 +0200</lastBuildDate>
+    
+      <atom:link href="https://blog.sahli.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>golang</title>
+        <link>https://blog.sahli.net/categories/golang/</link>
+        <pubDate>Sun, 06 Jan 2019 12:17:01 +0200</pubDate>
+        <guid>https://blog.sahli.net/categories/golang/</guid>
+        <description></description>
+      </item>
+    
+      <item>
+        <title>writing</title>
+        <link>https://blog.sahli.net/categories/writing/</link>
+        <pubDate>Sun, 06 Jan 2019 12:17:01 +0200</pubDate>
+        <guid>https://blog.sahli.net/categories/writing/</guid>
+        <description></description>
+      </item>
+    
+  </channel>
+</rss>
