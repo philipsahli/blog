@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "/Users/philipsahli/workspace/blog",
+	"sourceRoot": "/home/runner/work/blog/blog",
 	"sources": [
 		"themes/simplicity/assets/src/styles/styles.scss",
 		"themes/simplicity/assets/src/styles/_chroma_friendly.scss",
