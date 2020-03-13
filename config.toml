@@ -1,4 +1,4 @@
-baseURL = "https://techie.sahli.net/blog/"
+baseURL = "https://techie.sahli.net/"
 defaultContentLanguage = "en"
 disqusShortname = "test"
 enableEmoji = true
