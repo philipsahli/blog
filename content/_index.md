@@ -12,4 +12,5 @@ slug: /
 
 [Categories](/categories/) &bull; [Tags](/tags/)
 
-<!--[Photos](/photos/) &bull; --> [Question of the day](/categories/question-of-the-day/) &bull; [Posts](/posts/) <!-- &bull; [Projects](/projects/) -->
+<!--[Photos](/photos/) &bull; --> [Question of the day](/categories/question-of-the-day/) &bull; [Posts](/posts/) 
+<!-- &bull; [Projects](/projects/) -->
