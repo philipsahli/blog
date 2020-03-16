@@ -1,8 +1,8 @@
 ---
 title: Goperador
 date: 2019-01-06T12:17:01+02:00
-categories: [writing,golang]
-tags: [typography, elements]
+categories: [tutorial]
+tags: [operator, golang]
 language: en
 slug: goperador
 draft: true

@@ -4,6 +4,9 @@ other = "Posts about:"
 [postsList]
 other = "List of posts"
 
+[questionofthedayList]
+other = "List of Question of the day"
+
 [homePage]
 other = "Homepage"
 

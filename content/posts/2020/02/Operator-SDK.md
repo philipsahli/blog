@@ -1,8 +1,8 @@
 ---
 title: "An introduction to the Operator SDK"
 date: 2020-02-23T20:09:48+01:00
-categories: ["kubernetes", "operator"]
-tags: []
+categories: [tutorial]
+tags: [kubernetes, operator, golang]
 language: en
 slug:
 draft: true

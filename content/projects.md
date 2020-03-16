@@ -1,6 +1,7 @@
 ---
 title: Projects
 language: en
+draft: true
 slug: projects
 ---
 

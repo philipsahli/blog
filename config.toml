@@ -12,7 +12,7 @@ theme = "simplicity"
 title = "Blog by sahli.net - Philip Sahli"
 [author]
   gravatarEmail = "philip@sahli.net"
-  homepageText = "blog.sahli.net"
+  homepageText = "techie.sahli.net"
   name = "Philip Sahli"
   rss = "/posts/index.xml"
 [imaging]

@@ -1,8 +1,8 @@
 ---
 title: Gonsumidor
 date: 2019-01-06T12:17:01+02:00
-categories: [writing,golang]
-tags: [typography, elements]
+categories: [tutorial, golang]
+tags: [golang, grpc]
 language: en
 slug: gonsumidor
 draft: true
