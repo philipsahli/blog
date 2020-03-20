@@ -1,7 +1,7 @@
 ---
 title: "What is Hugo"
 description: "Question of the Day - What is Hugo?"
-images: [/media/question-mark.jpg]
+images: [/media/question-mark-120.jpg]
 date: 2020-03-15T11:52:56+01:00
 categories: [question-of-the-day]
 tags: [blog writing]
