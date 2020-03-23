@@ -38,7 +38,7 @@ title = "techie.sahli.net - by @philipsahli"
 [params]
   adsenseClient = ''
   adsenseSlot = ''
-  description = "A blog made by Philip Sahli."
+  description = "A blog about Golang, Containers and Kubernetes. Posts and Questions of the Day. Made by Philip Sahli."
   licence = "[Some Rights Reserved](http://creativecommons.org/licenses/by-sa/4.0/)."
   displayPostLanguage = true
 [permalinks]

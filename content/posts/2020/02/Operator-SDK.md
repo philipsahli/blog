@@ -67,6 +67,8 @@ This tries to run also the tests in the e2e directory. Therefore build-tags help
 
 This deploys the operator with the Kubernetes resource defined in `deploy/operator.yaml`.
 
+## Monitoring
+
 ## Versioning
 
 - [ ] Explain
@@ -79,4 +81,4 @@ This deploys the operator with the Kubernetes resource defined in `deploy/operat
 
 ## References
 
-- [https://github.com/operator-framework/operator-sdk/blob/master/doc/test-framework/writing-e2e-tests.md](https://github.com/operator-framework/operator-sdk/blob/master/doc/test-framework/writing-e2e-tests.md)
+- [Write E2E tests](https://github.com/operator-framework/operator-sdk/blob/master/doc/test-framework/writing-e2e-tests.md)

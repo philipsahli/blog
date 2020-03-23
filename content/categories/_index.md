@@ -1,5 +1,5 @@
 ---
 title: Categories
 language: en
-slug: /categories/
+slug: /categories/question-of-the-day/
 ---
