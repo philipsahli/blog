@@ -1,6 +1,6 @@
 baseURL = "https://techie.sahli.net/"
 defaultContentLanguage = "en"
-disqusShortname = "test"
+disqusShortname = "sahlinet"
 enableEmoji = true
 enableRobotsTXT = true
 googleAnalytics = "UA-161471042-1"
@@ -50,5 +50,5 @@ title = "techie.sahli.net - by @philipsahli"
     languageName = "English"
     weight = 1
   [languages.de]
-    languageName = "Deutcsh"
+    languageName = "Deutsch"
     weight = 2
