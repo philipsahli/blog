@@ -2,6 +2,7 @@
 title: Home
 language: en
 slug: /
+tags: [cloudnative,golang,kubernetes]
 ---
 
 # Techie [@philipsahli](https://twitter.com/philipsahli) writes about Containers, Kubernetes, Golang and Operators.
