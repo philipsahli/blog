@@ -1,6 +1,7 @@
 ---
 title: "Welcome to Go"
 date: 2020-02-23T20:09:48+01:00
+description: Golang as common language
 categories: [talk]
 tags: [swisspost, golang]
 language: en
