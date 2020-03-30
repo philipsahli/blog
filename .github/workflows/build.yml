@@ -2,7 +2,10 @@ name: github pages
 on:
   push:
     branches:
-      - develop
+      - '*'         # matches every branch
+      - '*/*'       # matches every branch containing a single '/'
+      - '!develop'   # excludes master 
+      - '!master'   # excludes master 
 jobs:
   deploy:
     runs-on: ubuntu-18.04
@@ -19,10 +22,3 @@ jobs:
 
       - name: Build
         run: hugo --minify
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          cname: techie.sahli.net
