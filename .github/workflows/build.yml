@@ -1,0 +1,24 @@
+name: github pages
+on:
+  push:
+    branches:
+      - '*'         # matches every branch
+      - '*/*'       # matches every branch containing a single '/'
+      - '!develop'   # excludes master 
+      - '!master'   # excludes master 
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v1  # v2 does not have submodules option now
+        with:
+          submodules: true
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.62.2'
+          extended: true
+
+      - name: Build
+        run: hugo --minify
