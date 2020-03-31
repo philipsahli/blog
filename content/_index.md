@@ -7,7 +7,7 @@ tags: [cloudnative,golang,kubernetes]
 
 # Techie [@philipsahli](https://twitter.com/philipsahli) writes about Containers, Kubernetes, Golang and Operators.
 
-> about ~~food, cars, sport,~~ [#kubernetes], [#golang] and [#cloudnative].
+> about ~~food, cars, sport,~~ #kubernetes, [#golang] and #cloudnative.
 
 ---
 
