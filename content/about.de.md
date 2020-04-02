@@ -1,5 +1,5 @@
 +++
-title = "About techie.sahli.net"
+title = "Über techie.sahli.net"
 date = "2014-04-09"
 +++
 
