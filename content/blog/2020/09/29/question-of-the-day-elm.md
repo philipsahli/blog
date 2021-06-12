@@ -1,12 +1,12 @@
 ---
 title: "What is Elm?"
 description: "Question of the Day - What is Elm?"
-# images: [/media/question-mark-120.jpg]
+images: [/media/question-mark-120.jpg]
 date: 2020-09-29T11:52:56+01:00
 categories: [question-of-the-day]
 tags: [blog writing]
 language: en
-slug: what-is-hugo
+slug: what-is-elm
 draft: false
 ---
 
@@ -41,7 +41,7 @@ The main advantage for a developer is that when the Elm compiler is happy with t
 
 On [ELM Package](https://package.elm-lang.org/) the community shares reusable packages. 
 
-[Justin Herrick](https://twitter.com/jah2488) maintains a curated list at [https://twitter.com/jah2488](github.com/jah2488/elm-companies) of companies using ELM in production.
+[Justin Herrick](https://twitter.com/jah2488) maintains a curated list at [github.com/jah2488/elm-companies](https://github.com/jah2488/elm-companies) of companies using ELM in production.
 
 A disadvantage might be that it is a new language for a developer to learn, and pure functional. But you can find a lot of good resources, that I share with you at the bottom of this page.
 
