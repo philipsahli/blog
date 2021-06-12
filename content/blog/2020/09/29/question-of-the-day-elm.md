@@ -1,7 +1,7 @@
 ---
 title: "What is Elm?"
 description: "Question of the Day - What is Elm?"
-images: [/media/question-mark-120.jpg]
+#images: [/media/Elm_logo.svg]
 date: 2020-09-29T11:52:56+01:00
 categories: [question-of-the-day]
 tags: [blog writing]
@@ -20,6 +20,9 @@ draft: false
 <!-- ![Hugo Logo](https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true) -->
 
 <br>
+
+![media/Elm_logo.svg](/media/Elm_logo.svg)
+
 > Elm is a functional language that compiles to JavaScript. It helps you make websites and web apps. It has a strong emphasis on simplicity and quality tooling.
 
 Elm is a domain-specific programming language for creating web browser-based graphical user interfaces. 
